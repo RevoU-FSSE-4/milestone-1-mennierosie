@@ -163,8 +163,9 @@ footer {
         flex-direction: row;
     }
 
-    img {
-        height: 200px;
+    .grid-section img {
+        width: 310px;
+        height: 290px;
         margin-top: 3%;
     }
 
@@ -207,9 +208,9 @@ footer {
         padding-top: 20px;
     }
 
-    img {
-        width: 178px;
-        height: 180px;
+    .grid-section img {
+        width: 170px;
+        height: 190px;
         margin-top: 3%;
     }
 
