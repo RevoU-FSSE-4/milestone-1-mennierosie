@@ -5,12 +5,9 @@ body {
 
 body,
 .section {
-    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDw8PDw0NDQ0NDQ0NEA0NDQ8NDw8PFxUWFhURExMYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQwNFA0OECsdExkrKysrKysrKysrLSsrNy03Kys3KysrKysrKysrLSstKysrKysrKy0rLSsrKysrKysrK//AABEIAKwBJQMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIxABAQACAAYCAwEAAAAAAAAAAAERIQIxQVFhoYGRweHwcf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDuIAAAJbua1vfZQAAABJMa7d9goAAAAAAAAAAAAAAADN4rmTGrLbxZmrrEx539NAAACYUAAAAAAAAAAAAAAAAAAAAAAAAAEzvlrHP8KAAAAAJlQAAAABKoAAAAAAAAAkvrQCgAAAAAAACSKAAAAAAAigAAAAAAAAAAAFACAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMdeqgAAAACZUAAAAAAAAAAAAAAAAAAAAAAATiz0xnzpQAACkgAJPPP6UAAAAAAAAAAAEBQAAATPRQBMb5/HdQAAAAAAAAAAARQAAAAAAAAAAAAAABMqAAAAAAAAAFoAAAAAAABAAAAAAAAAAAAEoKAAAAAAAACWf3cFAABAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEkx+9goAAAAAAAAigAAAAAAAAAAAAJj43nSgAAAAJw3P3YoACRQAAAAJQAEwoAAAAAAAUAAABLM9bP8AUAAAAABOLPTEuZzmdZ36UAAoAAAAAAAAAAAICiSe/KgAAAAIoAACVQAAAAB//2Q==');
-    /* Background untuk body atau section tertentu */
+    background-color: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDw8PDw0NDQ0NDQ0NEA0NDQ8NDw8PFxUWFhURExMYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQwNFA0OECsdExkrKysrKysrKysrLSsrNy03Kys3KysrKysrKysrLSstKysrKysrKy0rLSsrKysrKysrK//AABEIAKwBJQMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIxABAQACAAYCAwEAAAAAAAAAAAERIQIxQVFhoYGRweHwcf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDuIAAAJbua1vfZQAAABJMa7d9goAAAAAAAAAAAAAAADN4rmTGrLbxZmrrEx539NAAACYUAAAAAAAAAAAAAAAAAAAAAAAAAEzvlrHP8KAAAAAJlQAAAABKoAAAAAAAAAkvrQCgAAAAAAACSKAAAAAAAigAAAAAAAAAAAFACAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMdeqgAAAACZUAAAAAAAAAAAAAAAAAAAAAAATiz0xnzpQAACkgAJPPP6UAAAAAAAAAAAEBQAAATPRQBMb5/HdQAAAAAAAAAAARQAAAAAAAAAAAAAABMqAAAAAAAAAFoAAAAAAABAAAAAAAAAAAAEoKAAAAAAAACWf3cFAABAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEkx+9goAAAAAAAAigAAAAAAAAAAAAJj43nSgAAAAJw3P3YoACRQAAAAJQAEwoAAAAAAAUAAABLM9bP8AUAAAAABOLPTEuZzmdZ36UAAoAAAAAAAAAAAICiSe/KgAAAAIoAACVQAAAAB//2Q==');
     background-size: cover;
-    /* Menutupi seluruh area tanpa mengubah rasio */
     background-position: center;
-    /* Memusatkan gambar */
 }
 
 .container {
@@ -20,13 +17,11 @@ body,
 }
 
 .logo {
-    height: 32px;
-    /* Sesuaikan tinggi logo */
+    height: 30px;
     width: auto;
-    /* Menjaga aspek rasio logo */
 }
 
-header.sticky {
+.navbar .sticky {
     top: 0;
     position: relative;
     padding-left: 5rem;
@@ -37,7 +32,7 @@ header.sticky {
     align-items: center;
 }
 
-header .container {
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,21 +48,27 @@ header .container {
 .logo {
     height: 33px;
     margin-right: 17px;
-    /* Memberikan sedikit ruang antara logo dan teks */
 }
 
 /* Styling untuk teks "Yarex" */
 .logo-container span {
     font-size: 24px;
-    /* Atau sesuai kebutuhan */
     font-weight: bold;
-    /* Anda dapat menambahkan lebih banyak styling di sini jika perlu */
+}
+
+.hamburger {
+    display: none;
+    /* Sembunyikan hamburger menu pada resolusi desktop */
+    font-size: 20px;
+    /* Atur ukuran hamburger menu */
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
 }
 
 nav ul li {
@@ -91,11 +92,34 @@ a:hover {
 
 nav ul li a {
     color: black;
-    /* Warna terang untuk teks */
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 49px;
+    background-image: url("img/background.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding-top: 50px;
+    margin-bottom: 2%;
+}
+
+header h1 {
+    font-size: 34px;
+}
+
+header p {
+    font-size: 17px;
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 30px;
     /* Adjust for sticky header */
 
 }
@@ -128,47 +152,65 @@ footer {
     text-align: center;
 }
 
-/* Responsive Layout for Mobile Devices */
-@media screen and (max-width: 760px) {
+/* Responsive layout for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
-        flex-direction: column;
-        margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 40px;
     }
 
-    .logo-container {
-        justify-content: center;
-        margin-bottom: 20px;
-        /* Menambahkan sedikit ruang antara logo dan navigasi */
+    header .container,
+    .section .container {
+        flex-direction: row;
     }
 
-    .logo {
-        height: 40px;
-        /* Mengurangi ukuran logo untuk layar yang lebih kecil */
+    img {
+        height: 200px;
+        margin-top: 3%;
     }
 
-    .logo-container span {
-        font-size: 30px;
-        /* Mengurangi ukuran font untuk "Yarex" pada layar yang lebih kecil */
+    .hamburger {
+        display: none;
+        /* Sembunyikan hamburger menu pada tablet jika tidak dibutuhkan */
     }
 
     nav ul {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-        /* Menambahkan ruang antara setiap item navigasi */
-    }
-
-    nav ul li:first-child {
-        margin-top: 0;
+        display: flex;
     }
 
     main {
-        padding-top: 230px;
-        /* Adjust for sticky header */
+        padding-top: 20px;
+    }
+}
+
+
+/* Responsive Layout for Mobile Devices */
+@media screen and (max-width: 760px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    nav.active ul {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    main {
+        padding-top: 20px;
+    }
+
+    img {
+        width: 178px;
+        height: 180px;
+        margin-top: 3%;
     }
 
 }
