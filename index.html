@@ -8,29 +8,40 @@
     <title>Company Profile</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header class="sticky">
-      <div class="container">
-        <div class="logo-container">
-          <img src="img/cyborg.png" alt="Yarex" class="logo" />
-          <span>Yarex</span>
+    <div class="navbar">
+      <div class="sticky">
+        <div class="container">
+          <div class="logo-container">
+            <img src="img/cyborg.png" alt="Yarex" class="logo" />
+            <span>Yarex</span>
+          </div>
+          <button class="hamburger" aria-label="Toggle menu">☰</button>
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#growth">Growth</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#growth">Growth</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
       </div>
+    </div>
+
+    <header class="full-screen" id="header">
+      <h1>YAREX COMPANY</h1>
+      <p>
+        where innovation meets expertise in the world of web and app development
+      </p>
     </header>
 
     <main>
       <section id="about" class="grid-section">
         <div class="container">
           <article>
-            <h1>About The Company</h1>
+            <h2>About The Company</h2>
             <p>
               Welcome to Yarex Company, where innovation meets expertise in the
               world of web and app development. At Yarex, we pride ourselves on
@@ -43,17 +54,17 @@
           </article>
           <picture>
             <img
-              src="https://cdni.iconscout.com/illustration/premium/thumb/man-working-on-responsive-web-development-5691624-4759506.png"
-              alt="app-development"
-              max-width="400"
-              height="310"
+              src="https://i.pinimg.com/564x/69/42/10/694210334e310d93597c5b6bbb7629b6.jpg"
+              alt="web-development"
+              max-width="500"
+              height="240"
               loading="lazy"
             />
             <img
-              src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-team-working-on-website-launch-5691625-4759507.png"
-              alt="web-development"
-              max-width="400"
-              height="310"
+              src="https://i.pinimg.com/564x/48/8d/1b/488d1b44562330d8b6d3c8b619711b1f.jpg"
+              alt="app-development"
+              max-width="500"
+              height="240"
               loading="lazy"
             />
           </picture>
@@ -138,5 +149,6 @@
         <p>&copy; Michelyn Angela 2024. All rights reserved.</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
