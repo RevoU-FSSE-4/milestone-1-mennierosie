@@ -28,7 +28,7 @@ body,
 
 header.sticky {
     top: 0;
-    position: sticky;
+    position: relative;
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 20px;
