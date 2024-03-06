@@ -131,6 +131,7 @@ footer {
 /* Responsive Layout for Mobile Devices */
 @media screen and (max-width: 769px) {
     .container {
+        flex-direction: column;
         margin: 0 auto;
         padding: 0 20px;
     }
