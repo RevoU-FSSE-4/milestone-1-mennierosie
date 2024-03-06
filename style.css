@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body,
+.section {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7PhchLSHG-rRP02KQGiawnBWIVQ26mAA9T9DJ86d9_3tKSZ5WLfhMdf3aSGeA9kOaQ0&usqp=CAU');
+    /* Background untuk body atau section tertentu */
+    background-size: cover;
+    /* Menutupi seluruh area tanpa mengubah rasio */
+    background-position: center;
+    /* Memusatkan gambar */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 32px;
+    /* Sesuaikan tinggi logo */
+    width: auto;
+    /* Menjaga aspek rasio logo */
+}
+
+header.sticky {
+    top: 0;
+    position: sticky;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 20px;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 14px;
+    background-color: #efefef;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 33px;
+    margin-right: 17px;
+    /* Memberikan sedikit ruang antara logo dan teks */
+}
+
+/* Styling untuk teks "Yarex" */
+.logo-container span {
+    font-size: 24px;
+    /* Atau sesuai kebutuhan */
+    font-weight: bold;
+    /* Anda dapat menambahkan lebih banyak styling di sini jika perlu */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #fff;
+}
+
+nav ul li a {
+    color: black;
+    /* Warna terang untuk teks */
+}
+
+main {
+    padding-top: 100px;
+    /* Adjust for sticky header */
+
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-section .container {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.grid-section .container h1 {
+    font-size: 2em;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Layout for Mobile Devices */
+@media screen and (max-width: 769px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-container {
+        justify-content: center;
+        margin-bottom: 20px;
+        /* Menambahkan sedikit ruang antara logo dan navigasi */
+    }
+
+    .logo {
+        height: 40px;
+        /* Mengurangi ukuran logo untuk layar yang lebih kecil */
+    }
+
+    .logo-container span {
+        font-size: 30px;
+        /* Mengurangi ukuran font untuk "Yarex" pada layar yang lebih kecil */
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        /* Menambahkan ruang antara setiap item navigasi */
+    }
+
+    nav ul li:first-child {
+        margin-top: 0;
+    }
+
+    main {
+        padding-top: 230px;
+        /* Adjust for sticky header */
+    }
+
+}

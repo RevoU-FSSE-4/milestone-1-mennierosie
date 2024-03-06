@@ -1,1 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/NtxSJSoQ)
+# YAREX COMPANY
+
+![Yarex ](https://miro.medium.com/v2/resize:fit:400/1*HdBFQ9EO_Vc4-lHKShFbAQ.png)
+
+At Yarex Company, we pride ourselves on
+being at the forefront of technology, creating cutting-edge
+solutions that empower businesses and individuals to thrive in the
+digital age. With a team of highly skilled developers, designers,
+and strategists. We also bring ideas to life, turning concepts into
+seamless and user-friendly experiences.
+
+## Our Best Services
+
+- Web Development
+- App Development
+- Digital Strategy
+- UI/UX Design
+
+### [visit our website]
