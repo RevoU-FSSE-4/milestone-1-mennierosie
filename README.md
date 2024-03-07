@@ -1,8 +1,7 @@
 # YAREX
+This is a company website, which is engaged in the provision of technology services.
 
 ![Yarex ](img/YAREX.png)
-
-This is a company website, which is engaged in the provision of technology services
 
 ## Our Best Services
 
