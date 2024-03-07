@@ -41,6 +41,16 @@ A website by Michelyn Angela Sabatini Rajagukguk
 
 ### Vercel link: https://milestone-1-mennierosie-git-main-michelyn-angelas-projects.vercel.app/
 
+# Run the project
+
+1. Click the **Code** drop-down, where you'll see the URL for this repository
+
+2. copy this URL [text](https://github.com/RevoU-FSSE-4/milestone-1-mennierosie.git) , make sure you have Git installed on your machine.
+
+3. Open a terminal window and issue the command: **git clone URL** (where URL is the URL for the repository you want to clone)
+
+4. Once the clone is complete, you should find a new directory named after the project.
+
 # Development Stages
 
 ## Day 1 - Build the HTML
