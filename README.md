@@ -13,19 +13,19 @@ This is a company website, which is engaged in the provision of technology servi
 
 ## Our Features
 
-### Navbar
+### 1. Navbar
 
 It helps users easily navigate through the website. It typically includes links to the main sections of the site.
 
 ![Yarex-Navbar](img/yarex-navbar.png)
 
-### Contact Form
+### 2. Contact Form
 
 Enables users to leave messages or feedback through a simple form, facilitating communication with our company.
 
 ![Contact Form](img/contact-us.png)
 
-### Responsive Design
+### 3. Responsive Design
 
 Ensures that our website is accessible and visually appealing across various devices, including desktops, tablets, and smartphones.
 
