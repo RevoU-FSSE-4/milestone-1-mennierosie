@@ -153,7 +153,7 @@ I designed a responsive layout for mobile to ensure that a website seamlessly ad
 
 12. Follow the link on the Domains to see your site!
 
-## Day - 4 Connect to domain and DNS on Vercel
+## Day - 4 Connect to Domain on Vercel
 
 1. Go to Vercel, then login
 
