@@ -39,7 +39,7 @@ A website by Michelyn Angela Sabatini Rajagukguk
 
 ### My website: https://rosiepoetry.site/
 
-### Alternative link: https://milestone-1-mennierosie-git-main-michelyn-angelas-projects.vercel.app/
+### Vercel link: https://milestone-1-mennierosie-git-main-michelyn-angelas-projects.vercel.app/
 
 # Development Stages
 
